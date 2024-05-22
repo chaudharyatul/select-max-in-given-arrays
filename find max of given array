@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+
+int main() {
+    int n,mx=0,i;
+ cout<<"give the number u want=";
+    cin>>n;
+   
+    int a[n];
+    for(i=0;i<n;i++)
+    {
+        cout<<"enter those no=";
+        cin >>a[i];
+        
+    }
+    for(i=0;i<n;i++)
+    {
+    mx=max(mx,a[i]);
+    cout<<"the maximum no is=";
+    cout<<mx<<endl;
+    }
+
+    return 0;
+}
